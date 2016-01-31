@@ -113,7 +113,7 @@ There are `several libraries <http://en.wikipedia.org/wiki/JSON-RPC#Implementati
 
 Testing
 -------
-json-rpc is a python library, it supports pythons: 2.6, 2.7, 3.3, 3.4. There is optional support for django1.6 (python2.6 does not support django1.7).
+json-rpc is a python library, it supports pythons: 2.6, 2.7, 3.3, 3.4, 3.5. There is optional support for django1.6 (python2.6 does not support django1.7).
 
 Contributors
 ------------
