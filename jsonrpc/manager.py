@@ -1,5 +1,6 @@
 import json
 import logging
+import traceback
 from .utils import is_invalid_params
 from .exceptions import (
     JSONRPCInvalidParams,
@@ -113,6 +114,7 @@ class JSONRPCResponseManager(object):
                         "type": e.__class__.__name__,
                         "args": e.args,
                         "message": str(e),
+                        "traceback": traceback.format_exc(e),
                     }
 
                     logger.exception("API Exception: {0}".format(data))
